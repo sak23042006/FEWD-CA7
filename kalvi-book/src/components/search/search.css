@@ -1,0 +1,26 @@
+
+.search-bar-container{
+    margin: 2vw 35vw 3vw 35vw;
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    border-radius: 1vw;
+    background-color: #F1F3F4;
+    padding:  0.5vw 0 0.5vw 1.5vw;
+}
+
+.search-bar-container input{
+    padding: 0 0.7vw;
+    border: none;
+    width: 30vw;
+    outline: none;
+    border-radius: 1vw;
+    color: black;
+    background-color: #F1F3F4;
+    font-size: 1.1vw;
+    padding:  0.5vw;
+}
+
+.search-bar-container input::placeholder{
+    font-size: 1vw;
+}

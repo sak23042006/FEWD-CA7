@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8vw 4vw 0.5vw 4vw;
+    background-color: rgb(255, 96, 96);
+}
+
+.navbar h1{
+    color: white;
+}
+
+.navbar button{
+    padding: 0.8vw 1.5vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 0.3vw;
+    font-weight: 540;
+    font-size: 1vw;
+}
+
+.navbar button:hover{
+     cursor: pointer;
+     background-color: rgb(78, 78, 78);
+     transition: 0.3s;
+}
